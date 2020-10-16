@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Managment System</title>
+    <!--All the css files are added here and also icon-->
+    <link rel="icon" type="image/png" href="images/icon-1.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--All the icon cdn are here-->
+    <script src="https://kit.fontawesome.com/81c44bd5c6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Start of the Navbar Code-->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" id="brand_name" href="index.html"><i class="fas fa-university"></i>Bank Managment
+            System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <button type="button" id="nav_login_btn" class="btn btn-primary d-none d-md-block "><a
+                href="login.html">Login</a></button>
+        <button type="button" id="nav_signUp-btn" class="btn btn-success ml-3 mr-2 d-none d-md-block"><a
+                href="#">SignUp</a></button>
+    </nav>
+    <!--Navbar Ends here -->
+
+    <section class="container-fluid" id="home_main">
+        <div class="row">
+            <div class="col-lg-5 col-md-8 col-12 offset-lg-1" id="welcom_page">
+                <h4>Welcome To Our Bank Managment system</h4>
+                <p>We will Manage All of you Cash</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 offset-lg-2 offset-md-1 d-md-block d-none" id="notification">
+                <h4>Notifications</h4>
+                <p>All the notifications are shown their </p>
+                
+            </div>
+        </div>
+        <div class="row" id="login_here">
+            <div class="col-md-5  m-auto text-center buttons">
+                <p class="h5">Login for More Details</p><br>
+                <button type="button" id="login_btn" class="btn btn-primary"><a href="login.html">Login</a></button>
+                <button type="button" id="signUp-btn" class="btn btn-success "><a href="#">SignUp</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer starts from here-->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-6 offset-md-3 offset-md-1">
+                <h6>About US</h6>
+                <ul>
+                    <li><a href="#">Bank Managment System</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <a href="#">Developers</a>
+                </ul>
+            </div>
+            <div class="col-md-2 col-6 offset-md-1">
+                <h6>Contact Us</h6>
+                <ul>
+                    <li>Address:<small>Lahore,Pakistan</small></li>
+                    <li>Phone#:<small>0800-0000</li></small></li>
+                    <li><a href="#">Give Feedback</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-2 col-12 offset-md-1">
+                <h6>Follow us on</h6>
+                <a href="#"><i id="facebook" class="fab fa-facebook-f"></i></a>
+                <a href="#"><i id="twitter" class="fab fa-twitter"></i></a>
+                <a href="#"><i id="linkedin" class="fab fa-linkedin-in"></i></a>
+                <a href="#"> <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="#"><i id="google_plus" class="fa fa-google-plus" aria-hidden="true"></i> </a>
+            </div>
+        </div>
+        <hr>
+        <div class="blockquote text-center">
+            <p class="mb-0">
+                &copycopyright@ Bank Managment System 2020
+            </p>
+        </div>
+    </footer>
+    <!--All script files are included here-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
