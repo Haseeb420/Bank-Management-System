@@ -73,6 +73,11 @@ body{
     padding:20px;
     box-shadow: 1px 4px 10px 5px #888888;
 }
+#navbar{
+    background:#faf9f9;
+    border-bottom: 1px solid #000000;
+    z-index: 1;
+}
 #notification{
     overflow:scroll;
     height:200px;
@@ -208,40 +213,68 @@ footer ul{
 #sidebar{
     height: 100%;
     position:fixed;
-    background:#212121!important;
-    color:white;
+    background:#faf9f9;
+    color:black;
+    z-index:1;
 }
-#sidebar>ul{
-    margin-top: 30px;
-
-}
-#sidebar li{
-    list-style: none;
-    padding: 10px;
-    color: 7579e7;
-    margin-left: 20px;
-    margin-bottom: 20px;;
-   
-}
-#sidebar li a{
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
+#sidebar a{
     display: block;
+    color:black;
+    text-decoration:none;
+    /* transition:all 0.5s ease;  */
     padding:5px;
-    font-size:17px;
-    transition: all 0.5s ease;
+    margin:2px 2px 2px 2px;
 }
-#sidebar li a:hover{
-    color:#f1f1f1;
-    border:1px solid #ffffff;
+#sidebar a:hover{
+    border-left:5px solid #1293de ;
 }
 #sidebar p{
     position:fixed;
     left:10px;
-    
     font-size: medium;
     padding: 5px;
     border-top: 1px solid white;
     width: 100%;
+}
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  /* @media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+} */
+  .openbtn:hover {
+    background-color:#444;
+  }
+#expand-button{
+    width:25%;
+    height:30px;
+    /* background:black;
+    color:white; */
+    color:black;
+    margin:5px;
+}
+#expand-button i{
+    font-size:large;
+}
+#expand-button:hover{
+    background-color:#444;
+    color:#f1f1f1f1;
+    
 }
