@@ -63,7 +63,9 @@ a:focus {
     color: #fff;
     transition: all 0.3s;
 }
-
+#sidebar_img{
+z-index:-1;
+}
 #sidebar.active {
     margin-left: -250px;
 }
