@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 body{
-    font-family: sans-serif;
+   font-family: 'Poppins', sans-serif;
     /* background: url("/images/background-1.jpg") no-repeat;
     background-size: cover; */
 }
@@ -69,7 +84,7 @@ body{
     margin-top:30px;
 }
 #notification,#welcom_page{
-    z-index:1;
+    z-index:1000;
     padding:20px;
     box-shadow: 1px 4px 10px 5px #888888;
 }
@@ -160,6 +175,11 @@ footer ul{
 }
 #login_box{
     margin-top:100px;
+}
+.about_navbar{
+    position: fixed;
+    top:0;
+    left:0;
 }
 #login_form{
     border-top: 4px solid #1293de;
@@ -278,3 +298,86 @@ footer ul{
     color:#f1f1f1f1;
     
 }
+
+/*about page styling of about_bms*/
+#about_bms{
+    min-height: 95vh;
+}
+.about_title{
+    margin-top:20px;
+    margin-bottom: 30px;
+    border-bottom:;
+}
+.about_title h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:35px;
+}
+.about_title span{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: crimson;
+    transform: translateX(-50%);
+}
+.about_content img{
+    height: 100%;
+    width: 100%;
+}
+.about_content{
+    margin-top:20px;
+    padding:20px;
+    margin-bottom: 30px;
+}
+.about_content h4{
+    font-size:30px;
+    color:crimson;
+}
+.about_content p{
+    text-align: justify;
+    font-size:17px;
+    padding: 10px;
+    line-height: 25px;
+}
+.about_team{
+    background: #111111;
+    color:white;
+    
+
+}
+.about_team .about_teamMembers .profile_image{
+    margin:10px 10px;
+    margin-bottom: 30px;
+    padding:10px 30px;
+    transition: 2s all ease;
+}
+.about_team .about_teamMembers .profile_image img{
+    width:200px;
+    margin:15px 50px;
+    border-radius: 100%;
+    border:5px solid crimson;
+    transition: 1s all ease;
+}
+.about_team .about_teamMembers .profile_image h5{
+    font-size: 1.5rem;
+        margin: 5px 0px;
+    padding: 5px 10px;
+    border-bottom: 2px solid crimson;
+    transition: 1s all ease;
+}
+.about_team .about_teamMembers .profile_image p{
+    font-size:1.2rem;
+    font-weight: 500;
+}
+.about_team .about_teamMembers .profile_image:hover{
+    background:crimson;
+}    
+.about_team .about_teamMembers .profile_image:hover img{
+    border-color:#ffffff;
+}
+.about_team .about_teamMembers .profile_image:hover h5{
+    border-color:#ffffff;
+}
+
