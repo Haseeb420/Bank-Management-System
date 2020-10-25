@@ -381,3 +381,67 @@ footer ul{
     border-color:#ffffff;
 }
 
+/*contact page  css code start here*/\
+
+.contact_data{
+    padding:10px;
+    margin-bottom:30px;
+    min-height: 75vh;
+}
+.contact_data p{
+    text-align: justify;
+    text-indent: 15px;
+}
+.contact_data .label{
+        margin-top: 0px;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact_data .label_description{
+        font-family: 'Poppins';
+    color: black;
+    font-size: 18px;
+    color: #000000a3;
+    margin-left: 18px;
+    
+}
+.contact_data .icon{
+        font-size: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    color: crimson;
+}
+.contact_data #exampleInputText1, #exampleInputText2, #exampleInputEmail1,#exampleFormControlTextarea1{
+    
+    margin:12.5px 0px 12.5px 0px;
+    padding: 10px;
+    background: white;
+    font-size: 15px;
+    background: white;
+    font-weight: 300;
+}
+.contact_data #exampleInputText1{
+    width: 48%;
+    float: left;
+}
+.contact_data #exampleInputEmail1{
+     width: 48%;
+     margin-left: 15px;
+     float: right;
+}
+.contact_data #exampleInputText2{
+    width: 100%;
+    float: left;
+}
+#contact{
+    margin-top:30px;
+}
+.contact_data h5{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.contact_data #btn{
+    margin-bottom: 50px;
+}
+/*contact page  css code End here*/
